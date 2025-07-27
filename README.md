@@ -33,7 +33,7 @@ The core data for this project comes from the [Yelp Open Dataset](https://www.ye
     * **SQL Queries**: All business insights and data analysis are performed directly within Snowflake using SQL.
 
 ## Project Structure
-.
+```
 
 ├── 01_yelp_data_setup.sql          # SQL script for Snowflake table creation, S3 data loading, UDF, and JSON flattening.
 ├── 02_business_analysis.sql        # SQL script containing various business intelligence queries.
@@ -41,6 +41,8 @@ The core data for this project comes from the [Yelp Open Dataset](https://www.ye
 ├── project_flow_chart_process.png  # Visual representation of the data pipeline.
 ├── requirements.txt                # Python dependencies for the project.
 └── README.md                       # This README file.
+
+```
 ## Setup and Running the Project
 
 Follow these steps to set up and run the project:
